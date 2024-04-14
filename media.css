@@ -1,0 +1,485 @@
+@media screen and (max-width: 1350px) {
+  header {
+    height: auto;
+    padding: 25px 50px;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  .burger-menu {
+    border: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .burger-menu-line {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 3px;
+  }
+
+  .line-short {
+    width: 25px;
+  }
+
+  .header-container > img {
+    width: 180px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .hero-section,
+  .tranding-collection-section,
+  .top-rated-artists-section,
+  .browse-categories-section,
+  .discover-more-section,
+  .how-it-works-section {
+    padding: 40px 0px;
+  }
+
+  .subcribe-section,
+  footer {
+    padding: 40px 50px;
+  }
+
+  .hero-section-container,
+  .section-container,
+  .nft-highlight-section-container {
+    padding: 0px 50px;
+  }
+
+  .subcribe-section-container {
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+  }
+
+  .subcribe-section-container > .section-top-title > h3 > br,
+  .subcribe-section-container > .section-top-title > p > br {
+    display: none;
+  }
+
+  .nft-highlight-section-gradient {
+    padding: 300px 50px 0px 50px;
+  }
+
+  .tranding-collection-cards-item,
+  .discover-more-card,
+  .how-it-works-card {
+    width: 48%;
+  }
+
+  .tranding-collections-cards,
+  .top-rated-artists-cards-container,
+  .browse-categories-cards-container,
+  .discover-more-cards-container,
+  .how-it-works-section-cards-container {
+    margin-top: 40px;
+  }
+
+  .tranding-collection-cards-item-images > img {
+    width: 31%;
+  }
+
+  .hero-section-info-title > h1,
+  .section-top-title > h3 {
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 110%;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .hero-section-info-title > p,
+  .section-top-title > p {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: justify;
+  }
+
+  .hero-section-info-title > h1 > br,
+  .hero-section-info-title > p > br,
+  .tranding-collection-cards-item:nth-child(3),
+  .discover-more-card:nth-child(3),
+  .how-it-works-card:nth-child(3) {
+    display: none;
+  }
+
+  .top-rated-artists-card {
+    width: 23%;
+    padding: 25px 5px 25px 5px;
+  }
+
+  .browse-categories-card {
+    width: 23%;
+  }
+
+  .browse-categories-card-img {
+    width: 100%;
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  /* .browse-categories-card {
+    width: 48%;
+  } */
+
+  .browse-categories-card {
+    width: 23%;
+  }
+
+  .card-info-box {
+    padding: 20px;
+  }
+
+  .browse-categories-card > .card-info-box > h5 {
+    font-size: 18px;
+  }
+
+  .browse-categories-card-icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .top-rated-artists-card {
+    width: 48%;
+    padding: 25px 5px 25px 5px;
+    flex-direction: row;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .top-rated-artists-card-info {
+    margin: 0;
+  }
+
+  .top-rated-artists-card-info > h5 {
+    text-align: left;
+  }
+
+  .top-rated-artists-card > img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .subcribe-info-button {
+    flex-direction: column;
+  }
+
+  .subcribe-info-button > button {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .subcribe-section-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subcribe-section-container > img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hero-section-img {
+    padding-left: 50px;
+  }
+
+  .tranding-collection-cards-item {
+    width: 100%;
+  }
+
+  .tranding-collection-cards-item:nth-child(2) {
+    display: none;
+  }
+
+  .nft-highlight-section {
+    padding: 200px 0px 50px 00px;
+  }
+
+  .how-it-works-card > img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-text > br {
+    display: none;
+  }
+
+  .browse-categories-card {
+    width: 48%;
+  }
+
+  .browse-categories-card-img {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero-section-container {
+    flex-direction: column;
+  }
+
+  .hero-section-img {
+    display: none;
+  }
+
+  .hero-section-img1 {
+    margin-top: 30px;
+    display: flex;
+  }
+
+  .hero-section-img-container,
+  .hero-section-info,
+  .hero-section-img,
+  .hero-section-info-button {
+    width: 100%;
+  }
+
+  .hero-section-info-additional {
+    justify-content: space-between;
+  }
+
+  .hero-section-info-additional-box > h4 {
+    font-size: 5vw;
+  }
+
+  .hero-section-info-additional-box > p {
+    font-size: 4vw;
+  }
+
+  .button-transparent {
+    display: none;
+  }
+
+  .button-transparent-response {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .top-rated-artists-card-info > h5 {
+    font-size: 20px;
+    line-height: 110%;
+  }
+
+  .top-rated-artists-card-info > p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .top-rated-artists-card-info > p > span {
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: 5px;
+  }
+
+  .top-rated-artists-card {
+    width: 100%;
+    flex-direction: row;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .top-rated-artists-card-info > h5 {
+    margin: 0;
+    text-align: left;
+  }
+
+  .top-rated-artists-card > img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .browse-categories-card-img {
+    height: 300px;
+  }
+
+  .nft-highlight-section-container-timer {
+    display: none;
+  }
+
+  .nft-highlight-section-container-response-timer {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .how-it-works-card {
+    padding: 10px 30px 30px;
+  }
+
+  .how-it-works-card > img {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .discover-more-card {
+    width: 100%;
+  }
+
+  .discover-more-card:nth-child(3) {
+    display: block;
+  }
+
+  .how-it-works-section-cards-container {
+    flex-direction: column;
+  }
+
+  .how-it-works-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .how-it-works-card:nth-child(3) {
+    display: flex;
+  }
+
+  .how-it-works-card > img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .how-it-works-card-info > h5 {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .how-it-works-card-info > p {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 130%;
+  }
+
+  .browse-categories-card {
+    width: 48%;
+  }
+
+  .browse-categories-card-img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero-section-container,
+  .section-container,
+  .nft-highlight-section-container {
+    padding: 0px 25px;
+  }
+
+  .hero-section,
+  .tranding-collection-section,
+  .top-rated-artists-section,
+  .browse-categories-section,
+  .discover-more-section,
+  .how-it-works-section {
+    padding: 20px 0px;
+  }
+
+  header,
+  .subcribe-section,
+  footer {
+    padding: 25px;
+  }
+
+  .subcribe-section-container {
+    padding: 20px;
+  }
+
+  .tranding-collections-cards,
+  .top-rated-artists-cards-container,
+  .browse-categories-cards-container,
+  .discover-more-cards-container,
+  .how-it-works-section-cards-container {
+    margin-top: 30px;
+  }
+
+  .nft-highlight-section-container-info > h2 {
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 45.6px;
+    text-align: left;
+  }
+
+  .button-transparent-response {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nft-highlight-section {
+    padding: 50px 0px 50px 0px;
+  }
+
+  .nft-highlight-section-container-response-timer,
+  .button-white {
+    width: 100%;
+  }
+
+  .browse-categories-card-img {
+    height: 150px;
+  }
+
+  .card-info-box {
+    padding: 15px;
+  }
+
+  .browse-categories-card > .card-info-box > h5 {
+    font-size: 14px;
+  }
+
+  .browse-categories-cards-container {
+    row-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer-top-box > img {
+    width: 100%;
+  }
+
+  .footer-text,
+  .footer-text-bottom {
+    text-align: justify;
+  }
+
+  .top-rated-artists-card:nth-child(7),
+  .top-rated-artists-card:nth-child(8),
+  .top-rated-artists-card:nth-child(9),
+  .top-rated-artists-card:nth-child(10),
+  .top-rated-artists-card:nth-child(11),
+  .top-rated-artists-card:nth-child(12),
+  .browse-categories-card:nth-child(5),
+  .browse-categories-card:nth-child(6),
+  .browse-categories-card:nth-child(7),
+  .browse-categories-card:nth-child(8) {
+    display: none;
+  }
+}

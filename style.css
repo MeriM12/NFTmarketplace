@@ -432,7 +432,7 @@ nav ul li button p {
 .top-rated-artists-section {
   width: 100%;
   height: auto;
-  border: 1px solid rgb(0, 255, 42);
+  /* border: 1px solid rgb(0, 255, 42); */
   background-color: #2b2b2b;
   padding: 80px 0px;
 }
